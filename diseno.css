@@ -1,6 +1,50 @@
 body{
 
-    background-color: rgb(254, 243, 86);
-    color: blueviolet;
+    background-color: rgb(196, 200, 200);
+    }
+
+.btnacep{
+
+    background-color: rgb(88, 179, 236);
+    color: white;
+    font-family: serif;
+    border: 0px solid black;
+
+}
+
+.btncanc{
+    background-color: rgb(200, 194, 194);
+    color: white;
+    font-family: serif;
+    border: 0px solid;
+}
+.caja{
+    
+    background-color: rgb(255, 255, 255);
+   
+    height: 100px;
+    width: 300px;
+    border-radius: 8px;
+    border: 0 solid gray;
+    box-shadow: inset;
+}   
+
+.dhead{
+
+    padding: 5px;   
+    border-bottom: 1px #eee solid;
+}
+
+.dbody{
+
+    padding: 5px;
+    border:0;
+
+}
+
+.dfoot{
+
+    padding: 5px;
+    border-top: 1px #eee solid;
 
 }
