@@ -3,48 +3,66 @@ body{
     background-color: rgb(196, 200, 200);
     }
 
-.btnacep{
 
-    background-color: rgb(88, 179, 236);
-    color: white;
-    font-family: serif;
-    border: 0px solid black;
+  #caja1{
+
+    background-color: white;
+    width: 70%;
+    height: 20px;
+    margin: 9px;
+    padding: 5px;
+    border: none;
+    border-left:2px solid red;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#caja1:hover{
+
+  transform:scale(1.05, 1.05)
 
 }
 
-.btncanc{
-    background-color: rgb(200, 194, 194);
-    color: white;
-    font-family: serif;
-    border: 0px solid;
-}
-.caja{
+  #caja2{
+
+    background-color: white;
+    width: 70%;
+    height: 20px;
+    margin:9px;
+    padding: 5px;
+    border:none;
+    border-left:2px solid greenyellow;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.3;
     
-    background-color: rgb(255, 255, 255);
-   
-    height: 100px;
-    width: 300px;
-    border-radius: 8px;
-    border: 0 solid gray;
-    box-shadow: inset;
-}   
+  }
+  #caja2:hover{
 
-.dhead{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3)
+  }
 
-    padding: 5px;   
-    border-bottom: 1px #eee solid;
-}
+  #caja3{
 
-.dbody{
-
+    background-color: white;
+    width: 70%;
+    height: 20px;
+    margin: 9px;
     padding: 5px;
-    border:0;
+    border: none;
+    border-left: 2px solid blue;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    transition:0.3;
+  }
 
-}
+  #caja3:hover{
 
-.dfoot{
+    background-color: rgb(89, 89, 207);
 
-    padding: 5px;
-    border-top: 1px #eee solid;
+  }
 
-}
+
+
+
+
+
+
